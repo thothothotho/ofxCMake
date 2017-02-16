@@ -33,10 +33,10 @@ set( LIB_FMODEX ${OF_DIRECTORY_ABSOLUTE}/libs/fmodex/lib/linux64/libfmodex.so )
 
 set( OF_CORE_LIBS
         ${LIB_GLFW}
-        ${LIB_KISS}
-        ${LIB_POCO_1} ${LIB_POCO_5} ${LIB_POCO_6}
-        ${LIB_POCO_7} ${LIB_POCO_8} ${LIB_POCO_9} ${LIB_POCO_11}
-        ${LIB_TESS}
+#        ${LIB_KISS}
+#        ${LIB_POCO_1} ${LIB_POCO_5} ${LIB_POCO_6}
+#        ${LIB_POCO_7} ${LIB_POCO_8} ${LIB_POCO_9} ${LIB_POCO_11}
+#        ${LIB_TESS}
         )
 
 # ============================================================================
