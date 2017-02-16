@@ -42,7 +42,7 @@ set( OF_CORE_LIBS
 # ============================================================================
 # ----------------------------- System Frameworks ----------------------------
 include( FindPkgConfig )
-include( ${OF_DIRECTORY_ABSOLUTE}/CMake/modules/FindGStreamer.cmake )
+include( ${OF_CMAKE_MODULES}/FindGStreamer.cmake )
 include( FindOpenAL )
 
 PKG_SEARCH_MODULE( ALSA "REQUIRED" alsa )
